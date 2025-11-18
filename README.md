@@ -34,39 +34,38 @@ Commands install globally to `~/.claude/commands/`. Skills install to `~/.claude
 
 ## Commands
 
-### Meta-Prompting
-
-A systematic approach to building complex software by delegating prompt engineering to Claude itself.
+### Workflow
 
 - [`/create-prompt`](./commands/create-prompt.md) - Generate optimized prompts with XML structure
 - [`/run-prompt`](./commands/run-prompt.md) - Execute saved prompts in sub-agent contexts
-
-### Todo Management
-
-Capture ideas mid-conversation without losing focus.
-
 - [`/add-to-todos`](./commands/add-to-todos.md) - Capture tasks with full context
 - [`/check-todos`](./commands/check-todos.md) - Resume work on captured tasks
-
-### Context Handoff
-
-Continue work in a fresh context without losing progress.
-
 - [`/whats-next`](./commands/whats-next.md) - Create handoff document for fresh context
 
-### Skill & Extension Development
+### Create Extensions
 
-Wrapper commands for the skills below.
+Wrapper commands that invoke the skills below.
 
 - [`/create-agent-skill`](./commands/create-agent-skill.md) - Create a new skill
-- [`/heal-skill`](./commands/heal-skill.md) - Fix skills based on execution issues
-- [`/audit-skill`](./commands/audit-skill.md) - Audit skill for best practices
 - [`/create-meta-prompt`](./commands/create-meta-prompt.md) - Create staged workflow prompts
 - [`/create-slash-command`](./commands/create-slash-command.md) - Create a new slash command
-- [`/audit-slash-command`](./commands/audit-slash-command.md) - Audit command for best practices
 - [`/create-subagent`](./commands/create-subagent.md) - Create a new subagent
-- [`/audit-subagent`](./commands/audit-subagent.md) - Audit subagent for best practices
 - [`/create-hook`](./commands/create-hook.md) - Create a new hook
+
+### Maintain Extensions
+
+- [`/heal-skill`](./commands/heal-skill.md) - Fix skills based on execution issues
+- [`/audit-skill`](./commands/audit-skill.md) - Audit skill for best practices
+- [`/audit-slash-command`](./commands/audit-slash-command.md) - Audit command for best practices
+- [`/audit-subagent`](./commands/audit-subagent.md) - Audit subagent for best practices
+
+## Agents
+
+Specialized subagents used by the audit commands.
+
+- [`skill-auditor`](./agents/skill-auditor.md) - Expert skill auditor for best practices compliance
+- [`slash-command-auditor`](./agents/slash-command-auditor.md) - Expert slash command auditor
+- [`subagent-auditor`](./agents/subagent-auditor.md) - Expert subagent configuration auditor
 
 ## Skills
 
