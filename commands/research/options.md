@@ -132,6 +132,10 @@ After intake complete:
 </claude_context>
 
 **Next Action:** Implement chosen option, prototype to validate, or gather more info on specific option
+
+### Sources
+- [Source name]: [URL] - [date accessed]
+- [Source name]: [URL] - [date accessed]
 </output_format>
 
 <artifact_output>
@@ -141,9 +145,10 @@ Save the research to a file:
    - `[current-working-directory]/artifacts/research/`
 
 2. Generate filename from topic:
+   - Get current date in YYYY-MM-DD format
    - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-options.md`
-   - Example: `auth-providers-options.md`
+   - Format: `YYYY-MM-DD-[topic]-options.md`
+   - Example: `2025-01-15-auth-providers-options.md`
 
 3. Write the complete research to the file
 

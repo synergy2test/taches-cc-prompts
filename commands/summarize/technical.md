@@ -103,9 +103,9 @@ Save the summary to a file:
    - `[current-working-directory]/artifacts/summaries/`
 
 2. Generate filename from topic:
-   - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-technical.md`
-   - Example: `auth-system-technical.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-technical.md`
+   - Example: `2025-01-15-auth-system-technical.md`
 
 3. Write the complete summary to the file
 

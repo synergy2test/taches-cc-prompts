@@ -109,9 +109,9 @@ Save the reflection to a file:
    - `[current-working-directory]/artifacts/writing/`
 
 2. Generate filename from topic:
-   - Slugify the subject (lowercase, hyphens for spaces)
-   - Format: `[topic]-reflection.md`
-   - Example: `first-year-freelancing-reflection.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the subject (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-reflection.md`
+   - Example: `2025-01-15-first-year-freelancing-reflection.md`
 
 3. Write the complete reflection to the file
 

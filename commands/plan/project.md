@@ -6,7 +6,7 @@ argument-hint: [project or leave blank for current context]
 <objective>
 Create a project plan for $ARGUMENTS (or the current discussion if no arguments provided).
 
-Break down a project into phases with clear milestones, dependencies, and risks. Each phase becomes a candidate for sprint planning.
+Break down a project into phases with clear milestones, dependencies, and risks. Each phase can be detailed for implementation.
 </objective>
 
 <intake_gate>
@@ -152,7 +152,7 @@ Phase 1 → Phase 2 → Phase 3
 </parallel>
 </execution>
 
-**Next Action:** Run /plan/sprint for Phase 1, or /plan/mvp to cut scope first
+**Next Action:** Detail the first phase for implementation, reduce scope with /plan/mvp, or begin building
 </output_format>
 
 <artifact_output>
@@ -162,9 +162,9 @@ Save the project plan to a file:
    - `[current-working-directory]/artifacts/plans/`
 
 2. Generate filename from topic:
-   - Slugify the project name (lowercase, hyphens for spaces)
-   - Format: `[topic]-project.md`
-   - Example: `user-auth-system-project.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the project name (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-project.md`
+   - Example: `2025-01-15-user-auth-system-project.md`
 
 3. Write the complete project plan to the file
 
@@ -176,8 +176,8 @@ Save the project plan to a file:
 - Each phase has clear "done" milestone
 - Dependencies are explicit
 - Risks are identified with mitigations
-- Phases are sized appropriately for sprint planning
+- Phases are sized appropriately for detailed planning
 - Implementation context gives Claude architectural direction
-- Ready to feed into /plan/sprint or /plan/mvp
+- Ready to detail phases for implementation or reduce scope
 - Output saved to artifacts/plans/ directory
 </success_criteria>

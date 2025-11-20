@@ -95,9 +95,9 @@ Save the summary to a file:
    - `[current-working-directory]/artifacts/summaries/`
 
 2. Generate filename from topic:
-   - Slugify the video title/topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-video.md`
-   - Example: `how-git-works-internally-video.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the video title/topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-video.md`
+   - Example: `2025-01-15-how-git-works-internally-video.md`
 
 3. Write the complete summary to the file
 

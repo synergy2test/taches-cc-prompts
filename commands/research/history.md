@@ -140,6 +140,10 @@ After intake complete:
 </claude_context>
 
 **Next Action:** Apply lessons to planning, research specific aspect deeper, or validate key assumptions
+
+### Sources
+- [Source name]: [URL] - [date accessed]
+- [Source name]: [URL] - [date accessed]
 </output_format>
 
 <artifact_output>
@@ -149,9 +153,10 @@ Save the research to a file:
    - `[current-working-directory]/artifacts/research/`
 
 2. Generate filename from topic:
+   - Get current date in YYYY-MM-DD format
    - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-history.md`
-   - Example: `real-time-sync-history.md`
+   - Format: `YYYY-MM-DD-[topic]-history.md`
+   - Example: `2025-01-15-real-time-sync-history.md`
 
 3. Write the complete research to the file
 

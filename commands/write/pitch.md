@@ -1,12 +1,12 @@
 ---
-description: Write a quick pitch - explain your thing compellingly
+description: Write a quick pitch - explain your thing in 30 seconds
 argument-hint: [project/idea or leave blank for current context]
 ---
 
 <objective>
 Write a pitch for $ARGUMENTS (or the current topic if no arguments provided).
 
-Explain your thing clearly and compellingly. Make them want to know more.
+Explain your thing clearly and compellingly in 30 seconds or less. Make them want to know more.
 </objective>
 
 <intake_gate>
@@ -99,6 +99,7 @@ After intake complete:
 </output_format>
 
 <constraints>
+- Under 30 seconds spoken
 - No jargon
 - Specific problem, not vague category
 - "Why you" must be defensible
@@ -112,9 +113,9 @@ Save the pitch to a file:
    - `[current-working-directory]/artifacts/writing/`
 
 2. Generate filename from topic:
-   - Slugify the product/idea (lowercase, hyphens for spaces)
-   - Format: `[topic]-pitch.md`
-   - Example: `sequins-native-app-pitch.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the product/idea (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-pitch.md`
+   - Example: `2025-01-15-sequins-native-app-pitch.md`
 
 3. Write the complete pitch to the file
 

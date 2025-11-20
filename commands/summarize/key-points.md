@@ -95,9 +95,9 @@ Save the summary to a file:
    - `[current-working-directory]/artifacts/summaries/`
 
 2. Generate filename from topic:
-   - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-key-points.md`
-   - Example: `strategy-presentation-key-points.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-key-points.md`
+   - Example: `2025-01-15-strategy-presentation-key-points.md`
 
 3. Write the complete summary to the file
 

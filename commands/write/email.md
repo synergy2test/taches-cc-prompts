@@ -86,6 +86,8 @@ After intake complete:
 
 <constraints>
 - Subject line must be specific (not "Quick question")
+- One ask per email (if multiple, bullet them)
+- Shorter is always better
 - No filler ("I hope this email finds you well")
 - Make it easy to say yes
 </constraints>
@@ -97,9 +99,9 @@ Save the email to a file:
    - `[current-working-directory]/artifacts/writing/`
 
 2. Generate filename from topic:
-   - Slugify the subject/purpose (lowercase, hyphens for spaces)
-   - Format: `[topic]-email.md`
-   - Example: `project-update-client-email.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the subject/purpose (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-email.md`
+   - Example: `2025-01-15-project-update-client-email.md`
 
 3. Write the complete email to the file
 

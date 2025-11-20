@@ -113,9 +113,9 @@ Save the thread to a file:
    - `[current-working-directory]/artifacts/writing/`
 
 2. Generate filename from topic:
-   - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-thread.md`
-   - Example: `lessons-from-startup-failure-thread.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-thread.md`
+   - Example: `2025-01-15-lessons-from-startup-failure-thread.md`
 
 3. Write the complete thread to the file
 

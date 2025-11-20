@@ -130,6 +130,10 @@ After intake complete:
 </claude_context>
 
 **Next Action:** Address blockers, reduce scope, prototype critical path, or proceed to /plan/project
+
+### Sources
+- [Source name]: [URL] - [date accessed]
+- [Source name]: [URL] - [date accessed]
 </output_format>
 
 <artifact_output>
@@ -139,9 +143,10 @@ Save the research to a file:
    - `[current-working-directory]/artifacts/research/`
 
 2. Generate filename from topic:
+   - Get current date in YYYY-MM-DD format
    - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-feasibility.md`
-   - Example: `native-app-migration-feasibility.md`
+   - Format: `YYYY-MM-DD-[topic]-feasibility.md`
+   - Example: `2025-01-15-native-app-migration-feasibility.md`
 
 3. Write the complete research to the file
 

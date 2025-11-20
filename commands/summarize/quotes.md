@@ -104,9 +104,9 @@ Save the summary to a file:
    - `[current-working-directory]/artifacts/summaries/`
 
 2. Generate filename from topic:
-   - Slugify the source/topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-quotes.md`
-   - Example: `paul-graham-essays-quotes.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the source/topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-quotes.md`
+   - Example: `2025-01-15-paul-graham-essays-quotes.md`
 
 3. Write the complete summary to the file
 

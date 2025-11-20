@@ -126,9 +126,9 @@ Save the brief to a file:
    - `[current-working-directory]/artifacts/plans/`
 
 2. Generate filename from topic:
-   - Slugify the project/topic name (lowercase, hyphens for spaces)
-   - Format: `[topic]-brief.md`
-   - Example: `user-auth-system-brief.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the project/topic name (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-brief.md`
+   - Example: `2025-01-15-user-auth-system-brief.md`
 
 3. Write the complete brief to the file
 

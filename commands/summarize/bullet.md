@@ -79,6 +79,9 @@ If "Start summarizing" → proceed to summary
 </output_format>
 
 <constraints>
+- Maximum 3 levels of nesting
+- One idea per bullet
+- No full sentences if fragment works
 - Bold the main points for scannability
 </constraints>
 
@@ -89,9 +92,9 @@ Save the summary to a file:
    - `[current-working-directory]/artifacts/summaries/`
 
 2. Generate filename from topic:
-   - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-bullet.md`
-   - Example: `meeting-notes-bullet.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-bullet.md`
+   - Example: `2025-01-15-meeting-notes-bullet.md`
 
 3. Write the complete summary to the file
 

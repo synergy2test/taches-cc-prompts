@@ -30,6 +30,9 @@ Use AskUserQuestion to ask 2-4 questions based on actual gaps:
 **If depth unclear:**
 - "How deep should I go?" with options: Overview (key points only), Solid understanding (main concepts), Comprehensive (thorough coverage), Other
 
+**If focus unclear:**
+- "Any specific angles?" with options: Practical application, Theoretical understanding, Comparison to alternatives, Historical context, Other
+
 **If application unclear:**
 - "How will this be used?" with options: Inform implementation, Make architecture decision, Evaluate feasibility, General knowledge, Other
 
@@ -127,6 +130,10 @@ After intake complete:
 </claude_context>
 
 **Next Action:** Apply this knowledge to implementation, research specific aspect deeper, or run /plan/project
+
+### Sources
+- [Source name]: [URL] - [date accessed]
+- [Source name]: [URL] - [date accessed]
 </output_format>
 
 <artifact_output>
@@ -136,9 +143,10 @@ Save the research to a file:
    - `[current-working-directory]/artifacts/research/`
 
 2. Generate filename from topic:
+   - Get current date in YYYY-MM-DD format
    - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-deep-dive.md`
-   - Example: `kubernetes-networking-deep-dive.md`
+   - Format: `YYYY-MM-DD-[topic]-deep-dive.md`
+   - Example: `2025-01-15-kubernetes-networking-deep-dive.md`
 
 3. Write the complete research to the file
 

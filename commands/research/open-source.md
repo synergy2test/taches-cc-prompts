@@ -62,8 +62,13 @@ After intake complete:
 1. Define what we need (problem, requirements, constraints)
 2. Search for open-source options
 3. Evaluate each option
-4. Assess build vs. use tradeoffs
-5. Recommend best option or confirm need to build
+4. Verify maintenance status for each option:
+   - Check last commit date (not just "last updated" on package registry)
+   - Check issue response time (open recent issue, see if maintainers respond)
+   - Check contributor count and bus factor (is it one person or a team?)
+   - Flag if: last commit >1 year OR all commits from 1 person OR issues go unanswered
+5. Assess build vs. use tradeoffs
+6. Recommend best option or confirm need to build
 </process>
 
 <output_format>
@@ -84,7 +89,9 @@ After intake complete:
 - **Repo:** [GitHub URL]
 - **What it does:** [Brief description]
 - **Stars/Downloads:** [Popularity indicators]
-- **Last updated:** [Date]
+- **Last commit:** [Date - from repo, not registry]
+- **Contributors:** [Count - note if 1-person project]
+- **Issue response:** [Active/Slow/Inactive - check recent issues]
 - **License:** [License type]
 - **Fits our need:** [Yes/Partial/No] - [why]
 - **Concerns:** [Issues, gaps, risks]
@@ -138,6 +145,10 @@ After intake complete:
 </claude_context>
 
 **Next Action:** Prototype with chosen library, evaluate deeper, or spec out custom build
+
+### Sources
+- [Source name/package]: [URL] - [date accessed]
+- [Source name/package]: [URL] - [date accessed]
 </output_format>
 
 <artifact_output>
@@ -147,9 +158,10 @@ Save the research to a file:
    - `[current-working-directory]/artifacts/research/`
 
 2. Generate filename from topic:
+   - Get current date in YYYY-MM-DD format
    - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-open-source.md`
-   - Example: `midi-libraries-open-source.md`
+   - Format: `YYYY-MM-DD-[topic]-open-source.md`
+   - Example: `2025-01-15-midi-libraries-open-source.md`
 
 3. Write the complete research to the file
 

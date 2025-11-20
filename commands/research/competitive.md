@@ -131,6 +131,10 @@ After intake complete:
 </claude_context>
 
 **Next Action:** Deep dive on specific competitor, validate gaps with user research, or run /plan/brief to define our approach
+
+### Sources
+- [Source name]: [URL] - [date accessed]
+- [Source name]: [URL] - [date accessed]
 </output_format>
 
 <artifact_output>
@@ -140,9 +144,10 @@ Save the research to a file:
    - `[current-working-directory]/artifacts/research/`
 
 2. Generate filename from topic:
+   - Get current date in YYYY-MM-DD format
    - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-competitive.md`
-   - Example: `midi-sequencers-competitive.md`
+   - Format: `YYYY-MM-DD-[topic]-competitive.md`
+   - Example: `2025-01-15-midi-sequencers-competitive.md`
 
 3. Write the complete research to the file
 

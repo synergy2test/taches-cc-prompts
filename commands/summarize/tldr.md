@@ -76,9 +76,9 @@ Save the summary to a file:
    - `[current-working-directory]/artifacts/summaries/`
 
 2. Generate filename from topic:
-   - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-tldr.md`
-   - Example: `quarterly-report-tldr.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-tldr.md`
+   - Example: `2025-01-15-quarterly-report-tldr.md`
 
 3. Write the complete summary to the file
 

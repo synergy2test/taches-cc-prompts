@@ -139,6 +139,10 @@ Player C            Player F
 </claude_context>
 
 **Next Action:** Deep dive on specific area, competitive research on key players, or run /plan/brief to define our approach
+
+### Sources
+- [Source name]: [URL] - [date accessed]
+- [Source name]: [URL] - [date accessed]
 </output_format>
 
 <artifact_output>
@@ -148,9 +152,10 @@ Save the research to a file:
    - `[current-working-directory]/artifacts/research/`
 
 2. Generate filename from topic:
+   - Get current date in YYYY-MM-DD format
    - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-landscape.md`
-   - Example: `music-production-tools-landscape.md`
+   - Format: `YYYY-MM-DD-[topic]-landscape.md`
+   - Example: `2025-01-15-music-production-tools-landscape.md`
 
 3. Write the complete research to the file
 

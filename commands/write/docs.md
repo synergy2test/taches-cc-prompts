@@ -99,6 +99,8 @@ After intake complete:
 </output_format>
 
 <constraints>
+- Lead with what the reader needs most (usually Quick Start)
+- Every concept gets an example
 - Code must be copy-pasteable (no placeholders without explanation)
 - Organize by user goals, not internal architecture
 - Link to details, don't front-load them
@@ -111,9 +113,9 @@ Save the documentation to a file:
    - `[current-working-directory]/artifacts/writing/`
 
 2. Generate filename from topic:
-   - Slugify the project/topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-docs.md`
-   - Example: `api-integration-docs.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the project/topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-docs.md`
+   - Example: `2025-01-15-api-integration-docs.md`
 
 3. Write the complete documentation to the file
 

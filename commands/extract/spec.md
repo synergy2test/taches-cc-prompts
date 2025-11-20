@@ -224,9 +224,9 @@ Save the specification to a file:
    - `[current-working-directory]/artifacts/specs/`
 
 2. Generate filename from topic:
-   - Slugify the project/topic name (lowercase, hyphens for spaces)
-   - Format: `[topic]-spec.md`
-   - Example: `sequins-midi-app-spec.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the project/topic name (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-spec.md`
+   - Example: `2025-01-15-sequins-midi-app-spec.md`
 
 3. Write the complete specification to the file
 

@@ -94,9 +94,11 @@ After intake complete:
 </output_format>
 
 <constraints>
+- One core idea per post (not a listicle of unrelated things)
 - Specific examples > abstract claims
 - Personal voice (not corporate speak)
 - Title is specific and honest (no clickbait)
+- Every paragraph earns its place
 </constraints>
 
 <artifact_output>
@@ -106,9 +108,9 @@ Save the blog post to a file:
    - `[current-working-directory]/artifacts/writing/`
 
 2. Generate filename from topic:
-   - Slugify the title/topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-blog.md`
-   - Example: `why-we-switched-to-rust-blog.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the title/topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-blog.md`
+   - Example: `2025-01-15-why-we-switched-to-rust-blog.md`
 
 3. Write the complete blog post to the file
 

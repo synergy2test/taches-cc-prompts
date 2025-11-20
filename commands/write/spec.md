@@ -1,12 +1,12 @@
 ---
-description: Write technical specification - what to build and how
+description: Write technical specification for implementation
 argument-hint: [feature/project or leave blank for current context]
 ---
 
 <objective>
 Write a technical specification for $ARGUMENTS (or the current topic if no arguments provided).
 
-Define what to build clearly enough that someone could implement it without asking questions.
+Define what to build with enough technical detail for implementation - whether by you, another engineer, or via meta-prompt execution.
 </objective>
 
 <intake_gate>
@@ -56,6 +56,11 @@ If "Start writing" → proceed to writing
 </decision_gate>
 
 </intake_gate>
+
+<context>
+If project plans or briefs exist in conversation or artifacts, reference them for context.
+Otherwise, work from the current discussion.
+</context>
 
 <writing_process>
 After intake complete:
@@ -128,9 +133,9 @@ Save the spec to a file:
    - `[current-working-directory]/artifacts/writing/`
 
 2. Generate filename from topic:
-   - Slugify the feature/topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-spec.md`
-   - Example: `user-authentication-spec.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the feature/topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-spec.md`
+   - Example: `2025-01-15-user-authentication-spec.md`
 
 3. Write the complete spec to the file
 

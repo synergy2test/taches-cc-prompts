@@ -388,9 +388,9 @@ Save the specification to a file:
    - `[current-working-directory]/artifacts/ui-specs/`
 
 2. Generate filename from topic:
-   - Slugify the project/topic name (lowercase, hyphens for spaces)
-   - Format: `[topic]-ui-spec.md`
-   - Example: `sequins-ui-spec.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the project/topic name (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-ui-spec.md`
+   - Example: `2025-01-15-sequins-ui-spec.md`
 
 3. Write the complete specification to the file
 

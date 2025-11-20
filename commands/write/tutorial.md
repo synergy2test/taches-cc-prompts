@@ -131,6 +131,8 @@ After intake complete:
 - Every step must be testable (they know if it worked)
 - Code must be copy-pasteable (no invisible characters, correct paths)
 - No assumed knowledge beyond stated prerequisites
+- Explain the "why" briefly but don't over-explain
+- Test it yourself or be very confident it works
 </constraints>
 
 <artifact_output>
@@ -140,9 +142,9 @@ Save the tutorial to a file:
    - `[current-working-directory]/artifacts/writing/`
 
 2. Generate filename from topic:
-   - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-tutorial.md`
-   - Example: `build-cli-with-rust-tutorial.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the topic (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-tutorial.md`
+   - Example: `2025-01-15-build-cli-with-rust-tutorial.md`
 
 3. Write the complete tutorial to the file
 

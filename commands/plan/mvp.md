@@ -136,7 +136,7 @@ If scope creeps, cut in this order:
 </cut_triggers>
 </execution>
 
-**Next Action:** Run /plan/sprint to plan MVP implementation
+**Next Action:** Detail MVP implementation or begin building
 </output_format>
 
 <artifact_output>
@@ -146,9 +146,9 @@ Save the MVP scope to a file:
    - `[current-working-directory]/artifacts/plans/`
 
 2. Generate filename from topic:
-   - Slugify the project name (lowercase, hyphens for spaces)
-   - Format: `[topic]-mvp.md`
-   - Example: `sequins-native-mvp.md`
+   - Get current date in YYYY-MM-DD format   - Slugify the project name (lowercase, hyphens for spaces)
+   - Format: `YYYY-MM-DD-[topic]-mvp.md`
+   - Example: `2025-01-15-sequins-native-mvp.md`
 
 3. Write the complete MVP scope to the file
 

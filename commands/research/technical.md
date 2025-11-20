@@ -134,7 +134,11 @@ After intake complete:
 </implementation>
 </claude_context>
 
-**Next Action:** Prototype chosen approach, deeper research on specific aspect, or run /plan/sprint
+**Next Action:** Prototype chosen approach, deeper research on specific aspect, or begin implementation
+
+### Sources
+- [Source name]: [URL] - [date accessed]
+- [Source name]: [URL] - [date accessed]
 </output_format>
 
 <artifact_output>
@@ -144,9 +148,10 @@ Save the research to a file:
    - `[current-working-directory]/artifacts/research/`
 
 2. Generate filename from topic:
+   - Get current date in YYYY-MM-DD format
    - Slugify the topic (lowercase, hyphens for spaces)
-   - Format: `[topic]-technical.md`
-   - Example: `websocket-implementation-technical.md`
+   - Format: `YYYY-MM-DD-[topic]-technical.md`
+   - Example: `2025-01-15-websocket-implementation-technical.md`
 
 3. Write the complete research to the file
 
